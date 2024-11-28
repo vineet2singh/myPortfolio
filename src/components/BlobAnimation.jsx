@@ -1,0 +1,49 @@
+import React from 'react';
+
+const BlobAnimation = () => {
+  return (
+    <div className="relative w-1/2 h-screen rounded-full bg-yellow-400">
+      {/* SVG Animation */}
+      
+      <svg
+        className="absolute top-0 left-0 w-full h-full"
+        preserveAspectRatio="xMidYMid slice"
+        viewBox="10 10 80 80"
+
+      >
+        
+        <path
+          fill="#9b5de5"
+          className="animate-rotate-slow origin-[13px_25px]"
+          d="M37-5C25.1-14.7,5.7-19.1-9.2-10-28.5,1.8-32.7,31.1-19.8,49c15.5,21.5,52.6,22,67.2,2.3C59.4,35,53.7,8.5,37-5Z"
+        />
+        <path
+          fill="#f15bb5"
+          className="animate-rotate-fast origin-[13px_25px]"
+          d="M20.6,4.1C11.6,1.5-1.9,2.5-8,11.2-16.3,23.1-8.2,45.6,7.4,50S42.1,38.9,41,24.5C40.2,14.1,29.4,6.6,20.6,4.1Z"
+        />
+        <path
+          fill="#00bbf9"
+          className="animate-rotate-slower origin-[84px_93px]"
+          d="M105.9,48.6c-12.4-8.2-29.3-4.8-39.4.8-23.4,12.8-37.7,51.9-19.1,74.1s63.9,15.3,76-5.6c7.6-13.3,1.8-31.1-2.3-43.8C117.6,63.3,114.7,54.3,105.9,48.6Z"
+        />
+        <path
+          fill="#00f5d4"
+          className="animate-rotate-faster origin-[84px_93px]"
+          d="M102,67.1c-9.6-6.1-22-3.1-29.5,2-15.4,10.7-19.6,37.5-7.6,47.8s35.9,3.9,44.5-12.5C115.5,92.6,113.9,74.6,102,67.1Z"
+        />
+      </svg>
+
+      {/* Links */}
+      <div className="absolute bottom-0 right-12 top-">
+      <img
+            className="inline-block w- h-[90vh]  brightness-150 contrast-100 "
+            src="./src/assets/image1.png"
+            alt="link icon"
+          />
+      </div>
+    </div>
+  );
+};
+
+export default BlobAnimation;

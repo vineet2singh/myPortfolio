@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+#root{
+  display: flex;
+  background-color: #0F172A;
+  justify-content: space-between;
+}
+ul li {
+  font-weight: 600;
+  font-family: monospace;
+  margin: 15px 40px;
+  padding-left: px;
+  /* border-radius: 20px; */
+  transition: all ease-in-out 1s;
+}
