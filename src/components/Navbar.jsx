@@ -37,19 +37,19 @@ function Navbar() {
                     <li className='flex  items-center '>
                     <FaGraduationCap className='size-7'/>
                         <NavLink
-                            to="/Contact"
+                            to="/Project"
                             className={({ isActive }) => (isActive ? "text-orange-500 bg-white rounded-2xl shadow-xl transition-all duration-700 ease-in-out px-4 py " : "text-white-500 px-4 py rounded-2xl ") }
                         >
-                            Education
+                            Project
                         </NavLink>
                     </li>
                     <li className='flex  items-center '>
                        <RiContactsBook2Fill className='size-7'/>
                         <NavLink
-                            to="/About"
+                            to="/Connect"
                             className={({ isActive }) => (isActive ? "text-orange-500 bg-white rounded-2xl shadow-xl transition-all duration-700 ease-in-out px-4 py- " : "text-white-500 px-4 py- rounded-2xl  ")}
                         >
-                            Connnect
+                            Connect
                         </NavLink>
                     </li>
                 </ul>

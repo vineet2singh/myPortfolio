@@ -3,8 +3,8 @@ import Navbar from './components/Navbar'
 import { BrowserRouter,Routes, Route } from 'react-router-dom'
 import Home from './components/Home'
 import Blogs from './components/Skills'
-import Contact from './components/Contact'
-import About from './components/About'
+import Connect from './components/Connect'
+import Project from './components/Project'
 
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
       <Route  path='/' element={<Navbar/>}>
         <Route index element={<Home/>}/>
         <Route path='/Skills' element={<Blogs/>}/>
-        <Route path='/Contact' element={<Contact/>}/>
-        <Route path='/About' element={<About/>}/>
+        <Route path='/Project' element={<Project/>}/>
+        <Route path='/Connect' element={<Connect/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

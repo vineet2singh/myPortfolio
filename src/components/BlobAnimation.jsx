@@ -37,8 +37,8 @@ const BlobAnimation = () => {
       {/* Links */}
       <div className="absolute bottom-0 right-12 top-">
       <img
-            className="inline-block w- h-[90vh]  brightness-150 contrast-100 "
-            src="./src/assets/image1.png"
+            className="inline-block w- h-[90vh]  brightness-90 contrast- "
+            src="./src/assets/untitled.png"
             alt="link icon"
           />
       </div>

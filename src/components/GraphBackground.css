@@ -1,0 +1,38 @@
+.graph-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #0F172A; /* Light background color */
+    overflow: hidden;
+  }
+  
+  .line-chart {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* Vertical grid lines */
+    grid-template-rows: repeat(10, 1fr);   /* Horizontal grid lines */
+    gap: 0;
+  }
+  
+  .line-chart::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(41, 224, 241, 0.1) 2px, transparent 2px),
+                linear-gradient(to bottom, rgba(67, 167, 207, 0.1) 2px, transparent 2px);
+    background-size: 20px 20px; /* Adjust grid spacing */
+    z-index: 1;
+  }
+  
+  .graph-lines {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  
