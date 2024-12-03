@@ -18,7 +18,7 @@ function Navbar() {
                     <AiFillHome className='size-7 ' />
                         <NavLink
                             to="/"
-                            className={  ({ isActive }) => (isActive ? "text-orange-500 bg-white px-4 py rounded-2xl shadow-xl transition-all duration-700 ease-in-out " : "text-white-500 px-4 rounded-2xl") }
+                            className={  ({ isActive }) => (isActive ? "text-orange-600 bg-white px-4 py rounded-2xl shadow-xl transition-all duration-700 ease-in-out " : "text-white-7 px-4 rounded-2xl") }
                         >
                             Home   
                         </NavLink>
@@ -29,7 +29,7 @@ function Navbar() {
 
                         <NavLink
                             to="/Skills"
-                            className={({ isActive }) => (isActive ? "text-orange-500 bg-white rounded-2xl shadow-xl transition-all duration-700 ease-in-out px-4  " : "text-white-500 px-4 py rounded-2xl ")}
+                            className={({ isActive }) => (isActive ? "text-orange-600 bg-white rounded-2xl shadow-xl transition-all duration-700 ease-in-out px-4  " : "text-white-500 px-4 py rounded-2xl ")}
                         >
                             Skills
                         </NavLink>
@@ -38,7 +38,7 @@ function Navbar() {
                     <FaGraduationCap className='size-7'/>
                         <NavLink
                             to="/Project"
-                            className={({ isActive }) => (isActive ? "text-orange-500 bg-white rounded-2xl shadow-xl transition-all duration-700 ease-in-out px-4 py " : "text-white-500 px-4 py rounded-2xl ") }
+                            className={({ isActive }) => (isActive ? "text-orange-600 bg-white rounded-2xl shadow-xl transition-all duration-700 ease-in-out px-4 py " : "text-white-500 px-4 py rounded-2xl ") }
                         >
                             Project
                         </NavLink>
@@ -47,7 +47,7 @@ function Navbar() {
                        <RiContactsBook2Fill className='size-7'/>
                         <NavLink
                             to="/Connect"
-                            className={({ isActive }) => (isActive ? "text-orange-500 bg-white rounded-2xl shadow-xl transition-all duration-700 ease-in-out px-4 py- " : "text-white-500 px-4 py- rounded-2xl  ")}
+                            className={({ isActive }) => (isActive ? "text-orange-600 bg-white rounded-2xl shadow-xl transition-all duration-700 ease-in-out px-4 py- " : "text-white-500 px-4 py- rounded-2xl  ")}
                         >
                             Connect
                         </NavLink>

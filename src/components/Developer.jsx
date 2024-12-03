@@ -7,6 +7,7 @@ function Developer() {
      <TypeAnimation className=''
   sequence={[
     // Same substring at the start will only be typed once, initially
+    ' ',
     'F',
     400,
     'Full',
@@ -19,7 +20,7 @@ function Developer() {
     400,
     'Full',
   ]}
-  speed={50}
+  speed={150}
   style={{ }}
   repeat={Infinity}
 />

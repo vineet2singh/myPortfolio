@@ -23,19 +23,19 @@ function Skills() {
           <div className='mt- flex gap-3 flex-wrap'>
 
             <div className=' w-28 h-20 bg-gray-800 hover:shadow-violet-500 shadow-md flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200  '>
-              <img className='size-16 bri' src="https://img.icons8.com/color/48/c-programming.png" alt="c-programming" />
+              <img className='size-' src="https://img.icons8.com/color/48/c-programming.png" alt="c-programming" />
             </div>
 
             <div className=' w-28 h-20 bg-gray-800 flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200 hover:shadow-violet-500 shadow-md'>
-              <img className='size-16 bri' src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="c-programming" />
+              <img className='size-' src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="c-programming" />
             </div>
 
             <div className=' w-28 h-20 bg-gray-800 flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200 hover:shadow-violet-500 shadow-md'>
-              <img className='size-20 bri' src="https://img.icons8.com/3d-fluency/50/java-coffee-cup-logo.png" alt="c-programming" />
+              <img className='size-' src="https://img.icons8.com/3d-fluency/50/java-coffee-cup-logo.png" alt="c-programming" />
             </div>
 
             <div className=' w-28 h-20 bg-gray-800 flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200 hover:shadow-violet-500 shadow-md'>
-              <img className='size-18 bri' src="https://img.icons8.com/fluency/50/javascript.png" alt="c-programming" />
+              <img className='size-' src="https://img.icons8.com/fluency/50/javascript.png" alt="c-programming" />
             </div>
 
           </div>
@@ -46,27 +46,27 @@ function Skills() {
           <div className='mt- flex gap-3 flex-wrap'>
 
             <div className=' w-28 h-20 bg-gray-800 hover:shadow-violet-500 shadow-md flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200  '>
-              <img className='size-16 bri' src="https://img.icons8.com/color/48/html-5--v1.png" alt="c-programming" />
+              <img className='size- ' src="https://img.icons8.com/color/48/html-5--v1.png" alt="c-programming" />
             </div>
 
             <div className=' w-28 h-20 bg-gray-800 flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200 hover:shadow-violet-500 shadow-md'>
-              <img className='size-16 bri' src="https://img.icons8.com/color/48/css3.png" alt="c-programming" />
+              <img className='size-' src="https://img.icons8.com/color/48/css3.png" alt="c-programming" />
             </div>
 
             <div className=' w-28 h-20 bg-gray-800 flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200 hover:shadow-violet-500 shadow-md'>
-              <img className='size-20 bri' src="https://img.icons8.com/color/48/tailwind_css.png" alt="c-programming" />
+              <img className='size- ' src="https://img.icons8.com/color/48/tailwind_css.png" alt="c-programming" />
             </div>
 
             <div className=' w-28 h-20 bg-gray-800 flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200 hover:shadow-violet-500 shadow-md'>
-              <img className='size-20 bri' src="https://img.icons8.com/color/48/bootstrap--v2.png" alt="c-programming" />
+              <img className='size- ' src="https://img.icons8.com/color/48/bootstrap--v2.png" alt="c-programming" />
             </div>
 
             <div className=' w-28 h-20 bg-gray-800 flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200 hover:shadow-violet-500 shadow-md'>
-              <img className='size-18 bri' src="https://img.icons8.com/fluency/50/javascript.png" alt="c-programming" />
+              <img className='size- ' src="https://img.icons8.com/fluency/50/javascript.png" alt="c-programming" />
             </div>
 
             <div className=' w-28 h-20 bg-gray-800 flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200 hover:shadow-violet-500 shadow-md'>
-              <img className='size-18 bri' src="https://img.icons8.com/color/48/react-native.png" alt="c-programming" />
+              <img className='size- ' src="https://img.icons8.com/color/48/react-native.png" alt="c-programming" />
             </div>
 
           </div>
@@ -79,15 +79,15 @@ function Skills() {
           <div className='mt- flex gap-3 flex-wrap'>
 
             <div className=' w-28 h-20 bg-gray-800 hover:shadow-violet-500 shadow-md flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200  '>
-              <img className='size-16 bri' src="https://img.icons8.com/fluency/50/node-js.png" alt="c-programming" />
+              <img width='50' src="https://img.icons8.com/fluency/50/node-js.png" alt="c-programming" />
             </div>
 
             <div className=' w-28 h-20 bg-gray-800 flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200 hover:shadow-violet-500 shadow-md'>
-              <img width="64" height="64" src="https://img.icons8.com/nolan/64/express-js.png" alt="express-js" />
+              <img width="50" height="50" src="https://img.icons8.com/nolan/64/express-js.png" alt="express-js" />
             </div>
 
             <div className=' w-28 h-20 bg-gray-800 flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200 hover:shadow-violet-500 shadow-md'>
-              <img width="80" height="60" src="https://img.icons8.com/color/48/mysql-logo.png" alt="mysql-logo" />
+              <img width="50" height="60" src="https://img.icons8.com/color/48/mysql-logo.png" alt="mysql-logo" />
             </div>
 
             <div className=' w-28 h-20 bg-gray-800 flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200 hover:shadow-violet-500 shadow-md'>
@@ -104,7 +104,7 @@ function Skills() {
           <div className='mt- flex gap-3 flex-wrap'>
 
             <div className=' w-28 h-20 bg-gray-800 hover:shadow-violet-500 shadow-md flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200  '>
-            <img width="64" height="64" src="https://img.icons8.com/glyph-neue/64/github.png" alt="github"/>
+            <img width="70" height="50" src="https://img.icons8.com/plasticine/100/github.png" alt="github"/>
             </div>
 
             <div className=' w-28 h-20 bg-gray-800 flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200 hover:shadow-violet-500 shadow-md'>
