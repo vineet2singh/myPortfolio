@@ -1,10 +1,11 @@
 import React from 'react'
-import ContactForm from './ContactForm'
-import ContactFormWithOTP from './ContactFormWithOTP'
+import ContactForm from '../components/ContactForm'
+import ContactFormWithOTP from '../components/ContactFormWithOTP'
+import MobileNav from '../components/MobileNav'
 
 function Connect() {
   return (
-    <div className='w-full '>
+    <div className='w-full h-screen'>
       {/* <div>
         <img src="./src/assets/codingMan.png" alt="" />
       </div> */}
@@ -30,6 +31,7 @@ function Connect() {
           <a href="http://" target='_blank' className='size-15  hover:scale-125 ease-in-out duration-200'><img width="30" height="48" src="https://img.icons8.com/color/48/marker--v1.png" alt="marker--v1" /></a>
         </div>
       </div>
+      <MobileNav/>
     </div>
 
   )

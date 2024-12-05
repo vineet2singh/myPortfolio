@@ -8,24 +8,24 @@ import { Outlet, Link, NavLink } from 'react-router-dom'
 function Navbar() {
     return (
         <>
-            <nav className='bg-slate-800 w-1/4 text-white flex flex-col items-center rounded-r-[8%] '>
-                <ul className='flex flex-col  h-screen  text-lg py-4'>
-                    <div className='w-full text-center flex justify-center'>                   
-                             <UserImg/>
+            <nav className='bg-slate-800 w-1/4 h-[100vh] max-sm:w-0 text-white flex flex-col items-center rounded-r-[8%] '>
+                <ul className='flex flex-col  h-screen  text-lg py-4 max-sm:hidden'>
+                    <div className='w-full text-center flex justify-center max-sm:hidden'>
+                        <UserImg />
                     </div>
 
-                    <li  className='flex  items-center '>
-                    <AiFillHome className='size-7 ' />
+                    <li className='flex  items-center '>
+                        <AiFillHome className='size-7 ' />
                         <NavLink
                             to="/"
-                            className={  ({ isActive }) => (isActive ? "text-orange-600 bg-white px-4 py rounded-2xl shadow-xl transition-all duration-700 ease-in-out " : "text-white-7 px-4 rounded-2xl") }
+                            className={({ isActive }) => (isActive ? "text-orange-600 bg-white px-4 py rounded-2xl shadow-xl transition-all duration-700 ease-in-out " : "text-white-7 px-4 rounded-2xl")}
                         >
-                            Home   
+                            Home
                         </NavLink>
 
                     </li >
                     <li className='flex  items-center '>
-                    <BsBracesAsterisk className='size-7' />
+                        <BsBracesAsterisk className='size-7' />
 
                         <NavLink
                             to="/Skills"
@@ -35,16 +35,16 @@ function Navbar() {
                         </NavLink>
                     </li>
                     <li className='flex  items-center '>
-                    <FaGraduationCap className='size-7'/>
+                        <FaGraduationCap className='size-7' />
                         <NavLink
                             to="/Project"
-                            className={({ isActive }) => (isActive ? "text-orange-600 bg-white rounded-2xl shadow-xl transition-all duration-700 ease-in-out px-4 py " : "text-white-500 px-4 py rounded-2xl ") }
+                            className={({ isActive }) => (isActive ? "text-orange-600 bg-white rounded-2xl shadow-xl transition-all duration-700 ease-in-out px-4 py " : "text-white-500 px-4 py rounded-2xl ")}
                         >
                             Project
                         </NavLink>
                     </li>
                     <li className='flex  items-center '>
-                       <RiContactsBook2Fill className='size-7'/>
+                        <RiContactsBook2Fill className='size-7' />
                         <NavLink
                             to="/Connect"
                             className={({ isActive }) => (isActive ? "text-orange-600 bg-white rounded-2xl shadow-xl transition-all duration-700 ease-in-out px-4 py- " : "text-white-500 px-4 py- rounded-2xl  ")}

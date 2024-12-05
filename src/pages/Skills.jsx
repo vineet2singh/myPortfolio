@@ -1,5 +1,6 @@
 import React from 'react'
 import "./GraphBackground.css"; // CSS file for styling
+import MobileNav from '../components/MobileNav'
 
 function Skills() {
   return (
@@ -15,7 +16,7 @@ function Skills() {
         </svg>
       </div>
 
-      <div className='w-full h-screen  text-white '>
+      <div className='w-full h-screen z-0 text-white '>
 
         {/* -------------------------Programing Language skills ---------------- */}
         <div className='pl-10 pt-10'>
@@ -121,7 +122,7 @@ function Skills() {
             {/* </div> */}
           </div>
         </div>
-
+        <MobileNav/>
       </div>
     </div>
 

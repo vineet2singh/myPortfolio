@@ -1,5 +1,7 @@
 import React from 'react'
-import "./GraphBackground.css"; // CSS file for styling
+// import "./GraphBackground.css"; // CSS file for styling
+import MobileNav from '../components/MobileNav'
+
 
 function Project() {
   return (
@@ -15,6 +17,9 @@ function Project() {
       </svg>
     </div>
     {/* <RecipeReviewCard/>  */}
+
+    <MobileNav/>
+
   </div>
   )
 }

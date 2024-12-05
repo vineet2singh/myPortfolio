@@ -7,7 +7,7 @@ function Developer() {
      <TypeAnimation className=''
   sequence={[
     // Same substring at the start will only be typed once, initially
-    ' ',
+    
     'F',
     400,
     'Full',

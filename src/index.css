@@ -9,7 +9,7 @@
 }
 #root{
   display: flex;
-  background-color: #0F172A;
+  background-color:#0F172A;
   justify-content: space-between;
 }
 ul li {
@@ -19,4 +19,11 @@ ul li {
   padding-left: px;
   /* border-radius: 20px; */
   transition: all ease-in-out 1s;
+}
+@media only screen and (max-width: 600px) {
+  #root{
+    width: 100vw;
+    flex: none;
+    justify-content: none;
+  }
 }

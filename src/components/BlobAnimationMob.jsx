@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
-const BlobAnimation = () => {
+const BlobAnimationMob = () => {
   return (
-    <div className="relative w-1/2 h-screen rounded-full bg-yellow-400 max-sm:hidden">
+    <div className="relative w-full h-screen rounded-full bg-yellow-400 max-sm:h-[50vh] ">
       {/* SVG Animation */}
       
       <svg
@@ -37,13 +37,13 @@ const BlobAnimation = () => {
       {/* Links */}
       <div className="absolute bottom-0 right-12 top-">
       <img
-            className="inline-block w- h-[90vh]  brightness-90 contrast- "
+            className="inline-block w- h-[90vh]  brightness-90 contrast- max-sm:h-[54vh]"
             src="./src/assets/untitled.png"
             alt="link icon"
           />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default BlobAnimation;
+export default BlobAnimationMob
