@@ -38,7 +38,7 @@ const BlobAnimationMob = () => {
       <div className="absolute bottom-0 right-12 top-">
       <img
             className="inline-block w- h-[90vh]  brightness-90 contrast- max-sm:h-[54vh]"
-            src="./src/assets/untitled.png"
+            src="./src/images/untitled.png"
             alt="link icon"
           />
       </div>

@@ -29,7 +29,7 @@ function Home() {
               Let’s build something extraordinary together!</p>
 
             <div className='mt-5 w-full max-sm:h-  flex justify-end pr-10 border-b-2 pb-5 mb- border-yellow-300 '>
-              <a href="./src/assets/vineet Resume1.pdf" download>
+              <a href="./src/images/vineet Resume1.pdf" download>
                 <button className='bg-violet-700 p-2 text-white text-xl rounded-full tracking-tight px-4 font-serif font-semiboldbold focus:bg-blue-600'>Download Resume</button>
               </a>
             </div>

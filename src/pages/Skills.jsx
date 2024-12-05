@@ -20,7 +20,7 @@ function Skills() {
 
         {/* -------------------------Programing Language skills ---------------- */}
         <div className='pl-10 pt-10'>
-          <h1 className='text-yellow-300 text-xl sm:text-2xl font-mono inline-block'> <img src="./src/assets/coding.png" className='size-10 inline mr-2 ' alt="" />Programming Languages</h1>
+          <h1 className='text-yellow-300 text-xl sm:text-2xl font-mono inline-block'> <img src="./src/images/coding.png" className='size-10 inline mr-2 ' alt="" />Programming Languages</h1>
           <div className='mt- flex gap-3 flex-wrap'>
 
             <div className=' w-28 h-20 bg-gray-800 hover:shadow-violet-500 shadow-md flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200  '>
@@ -43,7 +43,7 @@ function Skills() {
         </div>
         {/*-------------- FrontEnd Development Skills --------------*/}
         <div className='pl-10 pt-5'>
-          <h1 className='text-yellow-300  text-xl sm:text-2xl  font-mono inline-block'> <img src="./src/assets/coding.png" className='size-10 inline mr-2' alt="" />FrontEnd Technology</h1>
+          <h1 className='text-yellow-300  text-xl sm:text-2xl  font-mono inline-block'> <img src="./src/images/coding.png" className='size-10 inline mr-2' alt="" />FrontEnd Technology</h1>
           <div className='mt- flex gap-3 flex-wrap'>
 
             <div className=' w-28 h-20 bg-gray-800 hover:shadow-violet-500 shadow-md flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200  '>
@@ -76,7 +76,7 @@ function Skills() {
         {/*-------------------- Backend Development ------------- */}
 
         <div className='pl-10 pt-5'>
-          <h1 className='text-yellow-300  text-xl sm:text-2xl  font-mono inline-block'> <img src="./src/assets/coding.png" className='size-10 inline mr-2' alt="" />Backend Technolgy</h1>
+          <h1 className='text-yellow-300  text-xl sm:text-2xl  font-mono inline-block'> <img src="./src/images/coding.png" className='size-10 inline mr-2' alt="" />Backend Technolgy</h1>
           <div className='mt- flex gap-3 flex-wrap'>
 
             <div className=' w-28 h-20 bg-gray-800 hover:shadow-violet-500 shadow-md flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200  '>
@@ -101,7 +101,7 @@ function Skills() {
         {/*------------------ Tools -------------- */}
 
         <div className='pl-10 pt-5 '>
-          <h1 className='text-yellow-300  text-xl sm:text-2xl  font-mono inline-block'> <img src="./src/assets/coding.png" className='size-10 inline mr-2' alt="" />Tools </h1>
+          <h1 className='text-yellow-300  text-xl sm:text-2xl  font-mono inline-block'> <img src="./src/images/coding.png" className='size-10 inline mr-2' alt="" />Tools </h1>
           <div className='mt- flex gap-3 flex-wrap'>
 
             <div className=' w-28 h-20 bg-gray-800 hover:shadow-violet-500 shadow-md flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200  '>
