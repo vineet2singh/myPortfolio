@@ -26,4 +26,13 @@ ul li {
     flex: none;
     justify-content: none;
   }
+  .graph-container{
+  position: static;
+  overflow: auto;
+
+  }
+  
+  ul li{
+    margin: 10px 0;
+  }
 }

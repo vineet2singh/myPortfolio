@@ -5,7 +5,7 @@ import MobileNav from '../components/MobileNav'
 function Skills() {
   return (
     <div className="graph-container">           {/*--------------Background graph design */}
-      <div className="line-chart">
+      <div className="line-chart  max-sm:hidden">
         <svg className="graph-lines">
           <polyline
             // points="0,200 50,150 100,180 150,120 200,100 250,150 300,90 350,110"
@@ -16,11 +16,11 @@ function Skills() {
         </svg>
       </div>
 
-      <div className='w-full h-screen z-0 text-white '>
+      <div className='w- h-  text-white max-sm:pb- '>
 
         {/* -------------------------Programing Language skills ---------------- */}
         <div className='pl-10 pt-10'>
-          <h1 className='text-yellow-300  text-2xl font-mono inline-block'> <img src="./src/assets/coding.png" className='size-10 inline mr-2' alt="" />Programming Languages</h1>
+          <h1 className='text-yellow-300 text-xl sm:text-2xl font-mono inline-block'> <img src="./src/assets/coding.png" className='size-10 inline mr-2 ' alt="" />Programming Languages</h1>
           <div className='mt- flex gap-3 flex-wrap'>
 
             <div className=' w-28 h-20 bg-gray-800 hover:shadow-violet-500 shadow-md flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200  '>
@@ -43,7 +43,7 @@ function Skills() {
         </div>
         {/*-------------- FrontEnd Development Skills --------------*/}
         <div className='pl-10 pt-5'>
-          <h1 className='text-yellow-300  text-2xl font-mono inline-block'> <img src="./src/assets/coding.png" className='size-10 inline mr-2' alt="" />FrontEnd Technology</h1>
+          <h1 className='text-yellow-300  text-xl sm:text-2xl  font-mono inline-block'> <img src="./src/assets/coding.png" className='size-10 inline mr-2' alt="" />FrontEnd Technology</h1>
           <div className='mt- flex gap-3 flex-wrap'>
 
             <div className=' w-28 h-20 bg-gray-800 hover:shadow-violet-500 shadow-md flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200  '>
@@ -76,7 +76,7 @@ function Skills() {
         {/*-------------------- Backend Development ------------- */}
 
         <div className='pl-10 pt-5'>
-          <h1 className='text-yellow-300  text-2xl font-mono inline-block'> <img src="./src/assets/coding.png" className='size-10 inline mr-2' alt="" />Backend Technolgy</h1>
+          <h1 className='text-yellow-300  text-xl sm:text-2xl  font-mono inline-block'> <img src="./src/assets/coding.png" className='size-10 inline mr-2' alt="" />Backend Technolgy</h1>
           <div className='mt- flex gap-3 flex-wrap'>
 
             <div className=' w-28 h-20 bg-gray-800 hover:shadow-violet-500 shadow-md flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200  '>
@@ -98,18 +98,18 @@ function Skills() {
           </div>
         </div>
 
-            {/*------------------ Tools -------------- */}
+        {/*------------------ Tools -------------- */}
 
-            <div className='pl-10 pt-5'>
-          <h1 className='text-yellow-300  text-2xl font-mono inline-block'> <img src="./src/assets/coding.png" className='size-10 inline mr-2' alt="" />Tools </h1>
+        <div className='pl-10 pt-5 '>
+          <h1 className='text-yellow-300  text-xl sm:text-2xl  font-mono inline-block'> <img src="./src/assets/coding.png" className='size-10 inline mr-2' alt="" />Tools </h1>
           <div className='mt- flex gap-3 flex-wrap'>
 
             <div className=' w-28 h-20 bg-gray-800 hover:shadow-violet-500 shadow-md flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200  '>
-            <img width="70" height="50" src="https://img.icons8.com/plasticine/100/github.png" alt="github"/>
+              <img width="70" height="50" src="https://img.icons8.com/plasticine/100/github.png" alt="github" />
             </div>
 
-            <div className=' w-28 h-20 bg-gray-800 flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200 hover:shadow-violet-500 shadow-md'>
-            <img width="48" height="48" src="https://img.icons8.com/color/48/visual-studio-code-2019.png" alt="visual-studio-code-2019"/>
+            <div className=' w-28 h-20  bg-gray-800 flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200 hover:shadow-violet-500 shadow-md'>
+              <img width="48" height="48" src="https://img.icons8.com/color/48/visual-studio-code-2019.png" alt="visual-studio-code-2019" />
             </div>
 
             {/* <div className=' w-28 h-20 bg-gray-800 flex justify-center items-center rounded-xl hover:scale-110 ease-in-out duration-200 hover:shadow-violet-500 shadow-md'>
@@ -122,7 +122,10 @@ function Skills() {
             {/* </div> */}
           </div>
         </div>
-        <MobileNav/>
+        <div className=' sticky bottom-4 '>
+      <MobileNav/>
+
+      </div>
       </div>
     </div>
 

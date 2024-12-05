@@ -92,7 +92,7 @@ function ContactForm() {
                 {validationError && (
                     <div className="mb-4 text-red-500 text-sm">{validationError}</div>
                 )}
-                <div className='flex justify-evenly'>
+                <div className='flex sm:justify-evenly max-sm:gap-5'>
 
                     <button type='reset' className=' bg-red-600 flex items-end gap-2 focus:bg-yellow-600 text-white py-2 px-6 rounded-full hover:bg- transition duration-300'> Reset
                         <img width="20" height="50" src="https://img.icons8.com/fluency/50/recurring-appointment.png" alt="recurring-appointment" />

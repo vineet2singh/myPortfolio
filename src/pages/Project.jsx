@@ -6,7 +6,7 @@ import MobileNav from '../components/MobileNav'
 function Project() {
   return (
     <div className="graph-container">
-    <div className="line-chart">
+    <div className="line-chart  max-sm:hidden">
       <svg className="graph-lines">
         <polyline
           // points="0,200 50,150 100,180 150,120 200,100 250,150 300,90 350,110"
@@ -18,8 +18,10 @@ function Project() {
     </div>
     {/* <RecipeReviewCard/>  */}
 
-    <MobileNav/>
+    <div className=' sticky bottom-4 '>
+      <MobileNav/>
 
+      </div>
   </div>
   )
 }
